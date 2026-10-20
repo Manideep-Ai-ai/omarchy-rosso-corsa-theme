@@ -1,0 +1,36 @@
+# ROSSO CORSA — racing-red palette for Omarchy
+mode = "dark"
+
+accent = "#DC0000"            # Rosso Corsa
+selection = "#34343A"         # elevated graphite
+selection_foreground = "#F5F5F5"
+muted = "#5A5A62"
+
+background = "#0A0A0A"        # carbon black
+dark_background = "#060606"
+darker_background = "#000000"
+lighter_background = "#202025" # cockpit graphite
+
+foreground = "#F5F5F5"        # telemetry white
+dark_foreground = "#6E6E76"
+light_foreground = "#A7A7AD"  # muted secondary text
+bright_foreground = "#FFFFFF"
+
+red = "#DC0000"
+yellow = "#FFF200"            # helmet yellow (highlights/warnings only)
+orange = "#FFB000"            # warning amber
+green = "#00D084"             # success
+cyan = "#9AA5B1"
+blue = "#C9C9CF"
+magenta = "#FF4D6D"
+brown = "#5C0000"
+
+bright_red = "#FF2A2A"
+bright_yellow = "#FFF56B"
+bright_green = "#3CF0A8"
+bright_cyan = "#C3CCD6"
+bright_blue = "#E2E2E6"
+bright_magenta = "#FF7A93"
+
+hyprland_active_border = "#DC0000 #8A0000 45deg"
+hyprland_inactive_border = "rgba(34343Aaa)"
