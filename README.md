@@ -23,15 +23,24 @@ omarchy theme set rosso-corsa
 
 | File | What it styles |
 |---|---|
-| `colors.toml` | Terminal, bar, menus and every app Omarchy themes from the palette |
-| `hyprland.lua` | Red gradient focus border, graphite inactive border, short slide for workspaces |
+| `colors.toml` | Terminal, bar, menus, window borders and every app Omarchy themes from the palette |
 | `btop.theme` | Pit-wall style system monitor |
 | `icons.theme` | Yaru-red icon set |
 | `chromium.theme` | Browser toolbar color |
-| `neovim.lua`, `vscode.json` | Matte Black editor themes to sit on the carbon background |
 | `backgrounds/` | Three wallpapers: carbon with red light strip, telemetry traces, night circuit |
 
 Cycle wallpapers with `omarchy theme bg next`.
+
+### Optional extras
+
+Omarchy skips `.lua` files and `vscode.json` when it installs a theme from a repo, so these are included for
+reference only. Copy them into the installed theme folder (`~/.config/omarchy/themes/rosso-corsa/`) yourself if you
+want them, then run `omarchy theme set rosso-corsa` again:
+
+| File | What it adds |
+|---|---|
+| `hyprland.lua` | Red gradient focus border and a short slide animation for workspaces |
+| `neovim.lua`, `vscode.json` | Matte Black editor themes to sit on the carbon background |
 
 ## Palette
 
